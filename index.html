@@ -26,56 +26,46 @@
       </style>
     </head>
     <body style = "background: #63796c ; overflow: hidden;">
-
-      <div class="slave">
-         Hello world
-     </div>
-     <div class="slave">
-            Hello world
-      </div>
-      <div class="slave">
-         
-   </div>
-  <div class="slave" style="font-size: small; font-family: 'Times New Roman', Times, serif;" id="fun13">
-       In the process of electroplating base metal is made cathode by connecting it to –ve terminal of the D.C. battery, while coating metal is made anode by connecting it to +ve terminal of the battery. Anode and cathode are immersed in the electrolytic solution containing ions of coating metal (in case of copper coating CuSO4 solution is used as electrolytic solution). During the process the anode undergoes oxidation and goes into electrolytic solution in the cationic state, the cations of coating metal travels to cathode through electrolytic solution and gets deposited on the cathode by accepting the electrons.
+  <div class="slave" id="fun13">
+      <p>After a few minutes, a pink plastic mass starts to form in the beaker</p>
    </div>
    <div class="slave" id="fun12">
-         You will see that the iron nail now changes colour and has a layer of copper deposited over it.
+      <p>Click on the stirrer to stir the mixture.</p>
    </div>
      <div class="slave" id="fun10">
-      <p>Click on the iron nail to connect it to the negative terminal of the battery with the help of crocodile clips</p>
+      <p>Click on the measuring flask to add 2 mL of concentrated H2SO4 in the beaker</p>
   </div>
    <div class="slave" id="fun11">
-      <p>Click on the copper metal plate to connect it to the positive terminal of the battery with the help of crocodile clips.</p>
+      <p>Click on the Conc. H2SO4 Container to bring it to the table</p>
       </div>
      <div class="slave" id="fun9">
-      <p>Now click on the battery to place it on the worktable.</p>
+      <p>Click on the spatula to transfer it to the beaker</p>
   </div>
      <div class="slave" id="fun8">
-         <p>Click sandpaper to clean the iron nail and the copper metal plate.</p>
+         <p>Click on the spatula again to measure it on the weighing machine. We need exactly 2g</p>
      </div>
      <div class="slave" id="fun7">
-         <p>Click on the Glass rod. The CuSo4 crystals are now added inside the beaker and stirred with the glass rod.</p>
+         <p>Click on spatula to collect Phenol feom the conatiner.</p>
      </div>
      <div class="slave" id = "fun6">
-         <p>The weight is now perfect. Click on the spatula again to empty it inside the beaker</p>
+         <p>Click on the Phenol container to bring it down to the table.</p>
      </div>
      <div class="slave" id="fun5">
-         <p>Click on the spatula again to add it to the weighing machine</p>
+         <p>Click on the measuring cylinder to add 2.5 mL of 40% acetic acid to the beaker</p>
      </div>
      <div class="slave" id="fun4">
-         <p>Click on the spatula to collect CuSO4 from the container</p>
+         <p>Click on the formaldehyde bottle to bring it down to the table</p>
      </div>
      
      <div class="slave" id="fun3">
-         <p>Click on the weighning machine to turn it ON</p>
+         <p>Click on the measuring cylinder to add exactly 5 mL in the beaker</p>
      </div>
 
      <div class="slave" id="fun2">
-        <p>Take out the CuSO4 container from the shelf and place it on the table. Click on the container.</p>
+        <p>Click on Acetic Acid container to bring it down to the table</p>
      </div>
      <div class="slave master" id = "fun1">
-         <p>Take out the beaker from the shelf and fill it with 250 mL water. Click on the beaker to bring it to the worktable.</p>
+         <p>Take out the beaker from the shelf and fill it with 100 mL water. Click on the beaker to bring it to the worktable.</p>
      </div>
      <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
@@ -202,7 +192,7 @@
        x="-281.2832"
        y="-165.3304" />
     <path
-       id="aceticacidcontainer"
+       id="aceticacidcontainer" onclick ="f2()"
        style="opacity:1;fill:#c3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 23.461486,81.576974 c 1.97337,-8e-4 3.561362,-1.748953 3.560482,-3.919583 l -0.0058,-14.247419 c -8.8e-4,-2.17062 -1.590288,-3.917486 -3.563658,-3.916686 l -7.447969,0.003 c -1.97337,8e-4 -3.561371,1.748953 -3.560492,3.919573 l 0.0058,14.247419 c 8.8e-4,2.17063 1.590298,3.917496 3.563668,3.916696 z m 0.314761,-22.350959 -3.61e-4,-0.89049 -8.095619,0.0033 3.61e-4,0.89049 z" >
       
@@ -229,9 +219,9 @@
       
       </path>
     <rect
-       transform="rotate(179.97678)"
+       transform="rotate(179.97678)" onclick ="f2()"
        style="opacity:1;fill:#280b0b;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="aceticacidlid"
+       id="aceticacidlid" onclick = "f2()"
        width="11.252789"
        height="1.1576182"
        x="-25.371254"
@@ -244,7 +234,7 @@
        values="39.371254,115.033539;164.5,167"
        restart="whenNotActive"
        fill="freeze"
-       begin="aceticacidcontainer.click"
+       begin="aceticacidcontainer.click" 
        />
        <animateTransform 
        attributeName="transform"
@@ -271,7 +261,7 @@
     <path
        d="m 43.700219,81.457511 c 1.97338,-8e-4 3.561362,-1.748953 3.560482,-3.919583 l -0.0058,-14.247409 c -8.79e-4,-2.17063 -1.590277,-3.917496 -3.563657,-3.916696 l -7.44797,0.003 c -1.97337,8e-4 -3.561371,1.748953 -3.560491,3.919583 l 0.0058,14.247409 c 8.8e-4,2.17063 1.590298,3.917496 3.563668,3.916696 z m 0.314771,-22.350959 -3.61e-4,-0.89048 -8.095629,0.0033 3.61e-4,0.89048 z"
        style="opacity:1;fill:#c3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="phenolcontainer" >
+       id="phenolcontainer" onclick="f5()" >
        <animateTransform 
        attributeName="transform"
        attributeType="XML"
@@ -318,7 +308,7 @@
        x="-65.120262"
        height="1.1576182"
        width="11.252789"
-       id="H2SO4lid"
+       id="H2SO4lid" onclick= "f9()"
        style="opacity:1;fill:#280b0b;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill">
        <animateTransform 
          attributeName="transform"
@@ -348,14 +338,14 @@
          values="194,165.6;119,113.5"
          restart="whenNotActive"
          fill="freeze"
-         begin="phenolcontainer.click"
+         begin=""
          />
          </rect>
          
     <path
        d="m 82.882453,81.08544 c 1.97338,-8e-4 3.56136,-1.748953 3.56048,-3.919583 l -0.006,-14.247409 c -8.8e-4,-2.17062 -1.59028,-3.917496 -3.56366,-3.916696 l -7.447971,0.003 c -1.97337,8e-4 -3.561372,1.748963 -3.560492,3.919583 l 0.0058,14.247409 c 8.8e-4,2.17063 1.590298,3.917496 3.563668,3.916696 z m 0.31477,-22.350959 -3.6e-4,-0.89049 -8.09563,0.0033 3.6e-4,0.89049 z"
        style="opacity:1;fill:#c3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="formaldehydeconatiner">
+       id="formaldehydeconatiner" onclick = "f4()">
        <animateTransform 
        attributeName="transform"
        attributeType="XML"
@@ -374,7 +364,7 @@
        values="65.5,52;0,0"
        restart="whenNotActive"
        fill="freeze"
-       begin="H2SO4container.click"
+       begin="phenolcontainer.click"
        /> 
       </path>
 
@@ -383,7 +373,7 @@
        y="-57.566101"
        x="-84.792412"
        height="1.1576182"
-       width="11.252789"
+       width="11.252789" onclick= "f4()"
        id="formaldehydelid"
        style="opacity:1;fill:#280b0b;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill">
        <animateTransform 
@@ -414,13 +404,13 @@
        values="215,166;158.971254,114.033539"
        restart="whenNotActive"
        fill="freeze"
-       begin="H2SO4container.click"
+       begin="phenolcontainer.click"
        /> 
        </rect>
     <rect
        transform="rotate(179.97678)"
        style="opacity:0.677316;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="phenol"
+       id="phenol" onclick="f5()"
        width="14.814822"
        height="13.535229"
        x="-47.310127"
@@ -438,7 +428,7 @@
        />
        </rect>
     <path
-       id="H2SO4container"
+       id="H2SO4container"onclick= "f9()"
        style="opacity:1;fill:#c3ffff;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 63.210367,81.249263 c 1.97338,-7.99e-4 3.561361,-1.748953 3.560481,-3.919573 l -0.0058,-14.247419 c -8.8e-4,-2.17063 -1.590278,-3.917496 -3.563658,-3.916696 l -7.447969,0.003 c -1.97337,8e-4 -3.561372,1.748954 -3.560492,3.919583 l 0.0058,14.247419 c 8.79e-4,2.17062 1.590297,3.917486 3.563667,3.916686 z m 0.314771,-22.350969 -3.61e-4,-0.89048 -8.09563,0.0033 3.61e-4,0.89048 z">
        <animateTransform 
@@ -459,11 +449,11 @@
        values="85,52;0,0"
        restart="whenNotActive"
        fill="freeze"
-       begin="phenolcontainer.click"
+       begin=""
        />
        </path>
     <path
-       id="H2SO4"
+       id="H2SO4" onclick= "f9()"
        style="opacity:0.153355;fill:#008bff;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 64.905329,81.056876 -10.185228,0.106829 c -0.112109,0.001 -2.488929,-2.391262 -2.490389,-2.514581 L 52.114467,68.96525 c -0.0011,-0.12332 0.09021,-0.222657 0.2023,-0.222702 l 14.086219,-0.0057 c 0.112129,-4.5e-5 0.20152,0.09922 0.20249,0.222538 l 0.07553,9.693951 c 0,0 -1.663517,2.402374 -1.775626,2.403549 z"
        sodipodi:nodetypes="ssssssscs" >
@@ -485,14 +475,14 @@
        values="85,52;0,0"
        restart="whenNotActive"
        fill="freeze"
-       begin="phenolcontainer.click"
+       begin=""
        />
     </path>
     <path
        sodipodi:nodetypes="ssssssscs"
        d="m 25.161089,81.362365 -10.185217,0.106829 c -0.11212,0.001 -2.48894,-2.391262 -2.4904,-2.514581 l -0.115245,-9.683864 c -10e-4,-0.12333 0.09021,-0.222667 0.2023,-0.222712 l 14.086219,-0.0057 c 0.11213,-4.5e-5 0.20152,0.09922 0.20248,0.222548 l 0.07553,9.69395 c 0,0 -1.663506,2.402365 -1.775626,2.40354 z"
        style="opacity:0.153355;fill:#008bff;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="aceticacid" >
+       id="aceticacid" onclick="f2()">
 
        <animateTransform 
        attributeName="transform"
@@ -520,7 +510,7 @@
        sodipodi:nodetypes="ssssssscs"
        d="m 84.581973,80.536851 -10.185221,0.106828 c -0.112119,10e-4 -2.488939,-2.391251 -2.490399,-2.51458 l -0.115245,-9.683864 c -0.0011,-0.12333 0.09021,-0.222657 0.20231,-0.222702 l 14.086215,-0.0057 c 0.11212,-4.5e-5 0.20151,0.09922 0.20247,0.222538 l 0.0755,9.69395 c 0,0 -1.6635,2.402365 -1.77562,2.40354 z"
        style="opacity:0.153355;fill:#008bff;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="formaldehyde">
+       id="formaldehyde" onclick="f4()">
        <animateTransform 
        attributeName="transform"
        attributeType="XML"
@@ -539,7 +529,7 @@
        values="65.5,52;0,0"
        restart="whenNotActive"
        fill="freeze"
-       begin="H2SO4container.click"
+       begin="phenolcontainer.click"
        /> 
        
        
@@ -547,7 +537,7 @@
     <rect
        transform="rotate(179.97678)"
        style="opacity:0.677316;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="aceticacidsticker"
+       id="aceticacidsticker" onclick="f2()"
        width="11.57662"
        height="2.9385715"
        x="-25.371254"
@@ -579,7 +569,7 @@
        x="-65.079826"
        height="2.9385715"
        width="11.57662"
-       id="H2SO4sticker"
+       id="H2SO4sticker" onclick= "f9()"
        style="opacity:0.677316;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" >
        <animateTransform 
          attributeName="transform"
@@ -599,7 +589,7 @@
        values="203.5,202.1;119,150"
        restart="whenNotActive"
        fill="freeze"
-       begin="phenolcontainer.click"
+       begin=""
        />
     </rect>
     
@@ -609,7 +599,7 @@
        x="-85.318657"
        height="2.9385715"
        width="11.57662"
-       id="formaldehydesticker"
+       id="formaldehydesticker" onclick="f4()"
        style="opacity:0.677316;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill">
        <animateTransform 
        attributeName="transform"
@@ -629,7 +619,7 @@
        values="225,200;158.971254,148.033539"
        restart="whenNotActive"
        fill="freeze"
-       begin="H2SO4container.click"
+       begin="phenolcontainer.click"
        /> 
        
        </rect>
@@ -639,7 +629,7 @@
        x="-45.326744"
        height="2.9385715"
        width="11.57662"
-       id="Phenolsticker"
+       id="Phenolsticker" onclick= "f5()"
        style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill">
        <animateTransform 
        attributeName="transform"
@@ -657,7 +647,7 @@
        style="font-style:normal;font-weight:normal;font-size:2.06563px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0516406"
        x="14.937969"
        y="72.811821"
-       id="aceticacidtext"
+       id="aceticacidtext" onclick="f2()"
        transform="matrix(0.96828808,0.0027718,-0.0025482,1.0327432,0,0)"><tspan
          sodipodi:role="line"
          id="tspan1025"
@@ -688,7 +678,7 @@
       </text>
     <text
        transform="matrix(0.94343648,0.00286522,-0.00246102,1.0599473,0,0)"
-       id="Phenoltext"
+       id="Phenoltext" onclick="f5()"
        y="71.436775"
        x="38.492905"
        style="font-style:normal;font-weight:normal;font-size:2.12005px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0530011"
@@ -710,7 +700,7 @@
       /></text>
     <text
        transform="matrix(0.91060034,0.00299565,-0.00234492,1.0981689,0,0)"
-       id="H2SO4text"
+       id="H2SO4text" onclick= "f9()"
        y="69.014343"
        x="59.433971"
        style="font-style:normal;font-weight:normal;font-size:2.00895px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0502237"
@@ -737,11 +727,11 @@
          values="79,59.1;-5,7.1"
          restart="whenNotActive"
          fill="freeze"
-         begin="phenolcontainer.click"
+         begin=""
          /> </text>
     <text
        transform="matrix(0.98056355,0.00272721,-0.00259105,1.0198145,0,0)"
-       id="Formaldehydetext"
+       id="Formaldehydetext" onclick="f4()"
        y="74.629807"
        x="75.397263"
        style="font-style:normal;font-weight:normal;font-size:1.6412px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.04103"
@@ -769,10 +759,10 @@
        values="65.5,52;0,0"
        restart="whenNotActive"
        fill="freeze"
-       begin="H2SO4container.click"
+       begin="phenolcontainer.click"
        /> </text>
     <path
-       id="beaker"
+       id="beaker" onclick= "f1()"
        style="opacity:1;fill:#b8ecec;fill-opacity:1;stroke:#000000;stroke-width:0.646864;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 105.57511,81.106513 -0.005,-12.912749 1.82172,-3.394399 -1.82311,-0.01956 -2e-5,-0.0445 -11.906931,0.0048 0.007,16.371249 z" >
        <animateTransform 
@@ -791,7 +781,7 @@
        sodipodi:nodetypes="ssssssscss"
        d="m 103.93574,81.120657 -9.996431,-9.48e-4 c -0.0895,-4e-6 -0.24811,-0.32293 -0.24773,-0.34168 l 0.0318,-1.586743 c 2.6e-4,-0.0188 0.0721,-0.03363 0.16164,-0.03397 l 11.513021,-0.03847 c 0.0896,-2.36e-4 0.18196,0.03533 0.18192,0.05403 l -0.005,1.946713 c 0,0 -1.38236,0.01756 -1.43696,-0.0064 z"
        style="opacity:0.153355;fill:#008bff;fill-opacity:1;stroke:#000000;stroke-width:0.225368;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="liq"  >
+       id="liq" onclick="f1()" >
        <animateTransform 
        attributeName="transform"
        attributeType="XML"
@@ -884,7 +874,7 @@
     <path
        d="m 120.13321,81.182832 -0.006,-15.506019 0.42518,-4.075392 -0.42685,-0.02433 -2e-5,-0.0534 -2.78774,0.0011 0.008,19.659179 z"
        style="opacity:1;fill:#b8ecec;fill-opacity:1;stroke:#000000;stroke-width:0.34299;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="measuringcylinder" >
+       id="measuringcylinder" onclick = "f3()" >
        <animateTransform 
        attributeName="transform"
        attributeType="XML"
@@ -939,7 +929,7 @@
        </path>
 
        <!-- making a new measuring flask -->
-       <path
+       <path display = "none"
        d="m 175.13321,121.182832 -0.006,-15.506019 0.42518,-4.075392 -0.42685,-0.02433 -2e-5,-0.0534 -2.78774,0.0011 0.008,19.659179 z"
        style="opacity:1;fill:#b8ecec;fill-opacity:1;stroke:#000000;stroke-width:0.34299;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="measuringcylindertilt" >
@@ -951,7 +941,7 @@
       />
       </path>
     <path
-       id="liq2"
+       id="liq2" display = "none"
        style="opacity:0.153355;fill:#008bff;fill-opacity:1;stroke:#000000;stroke-width:0.119498;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 119.74939,81.199178 -2.34043,-0.0051 c -0.0209,-4.1e-5 -0.0582,-0.387896 -0.0581,-0.410386 l 0.007,-1.905403 c 8e-5,-0.0225 0.017,-0.04031 0.0379,-0.04062 l 2.69549,-0.04159 c 0.0209,-2.49e-4 0.0427,0.04248 0.0427,0.06498 l -5e-5,2.337681 c 0,0 -0.32364,0.02043 -0.33645,-0.0079 z"
        sodipodi:nodetypes="ssssssscss" >
@@ -1149,7 +1139,7 @@
        />
        </rect>
     <path
-       id="fancyspoon1"
+       id="fancyspoon1" display = "none" onclick="f6()"
        style="opacity:1;fill:#ac9393;fill-opacity:1;stroke:#000000;stroke-width:0.651004;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 92.208341,109.65554 a 1.5058555,6.3130277 89.982048 0 0 6.255415,-1.5079 1.5058555,6.3130277 89.982048 0 0 -6.313871,-1.50383 1.5058555,6.3130277 89.982048 0 0 -5.702921,0.86236 l -17.512145,0.006 5.09e-4,1.00391 17.084393,-0.006 a 1.5058555,6.3130277 89.982048 0 0 6.13169,1.14534 1.5058555,6.3130277 89.982048 0 0 0.05694,-2e-5 z">
        <animateTransform 
@@ -1164,7 +1154,7 @@
        />
        </path>
        <path
-       id="fancyspoon2"
+       id="fancyspoon2" display = "none" onclick= "f7()"
        style="opacity:1;fill:#ac9393;fill-opacity:1;stroke:#000000;stroke-width:0.651004;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 162.208341,104.65554 a 1.5058555,6.3130277 89.982048 0 0 6.255415,-1.5079 1.5058555,6.3130277 89.982048 0 0 -6.313871,-1.50383 1.5058555,6.3130277 89.982048 0 0 -5.702921,0.86236 l -17.512145,0.006 5.09e-4,1.00391 17.084393,-0.006 a 1.5058555,6.3130277 89.982048 0 0 6.13169,1.14534 1.5058555,6.3130277 89.982048 0 0 0.05694,-2e-5 z">
        <animateTransform 
@@ -1180,7 +1170,7 @@
        </path>
 
        <path
-       id="fancyspoon3"
+       id="fancyspoon3" display = "none" onclick= "f8()"
        style="opacity:1;fill:#ac9393;fill-opacity:1;stroke:#000000;stroke-width:0.651004;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 246.208341,107.65554 a 1.5058555,6.3130277 89.982048 0 0 6.255415,-1.5079 1.5058555,6.3130277 89.982048 0 0 -6.313871,-1.50383 1.5058555,6.3130277 89.982048 0 0 -5.702921,0.86236 l -17.512145,0.006 5.09e-4,1.00391 17.084393,-0.006 a 1.5058555,6.3130277 89.982048 0 0 6.13169,1.14534 1.5058555,6.3130277 89.982048 0 0 0.05694,-2e-5 z">
        <animateTransform 
@@ -1197,7 +1187,7 @@
     <path
        sodipodi:type="star"
        style="opacity:1;fill:#ececec;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="whitepowder"
+       id="whitepowder" display = "none"
        sodipodi:sides="3"
        sodipodi:cx="243.74368"
        sodipodi:cy="107.1711"
@@ -1259,7 +1249,7 @@
     <path
        d="m 254.71326,120.1685 c -2.4683,0.26545 -5.29958,0.45334 -7.56165,-0.0373 1.08733,-0.42869 2.34363,-0.91849 3.43097,-1.34719 z"
        style="fill:#ececec;stroke:#000000;stroke-width:0.323548;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="whitepowderinmachine" >
+       id="whitepowderinmachine" display = "none" >
       
        </path>
     <text
@@ -1281,7 +1271,7 @@
        sodipodi:nodetypes="ccccc" />
     <text
        transform="matrix(1.0839462,0.00178995,-0.0014564,0.9225526,0,0)"
-       id="Pisplay2"
+       id="Pisplay2" display = "none"
        y="138.45932"
        x="222.97093"
        style="font-style:normal;font-weight:normal;font-size:4.84818px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1292,14 +1282,14 @@
          id="tspan977-2"
          sodipodi:role="line">00.20</tspan></text>
     <path
-       id="path1274"
+       id="slime" display = "none"
        style="opacity:0.309904;fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:0.323432;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 95.673199,80.724136 c 0.18884,-0.02318 1.66711,-0.379126 3.7238,-0.379959 2.056671,-8.34e-4 4.050081,0.357508 4.239281,0.376731 5.29236,0.537615 -2.1823,0.379335 -4.238971,0.380168 -2.05669,8.34e-4 -9.026366,0.273229 -3.72411,-0.37694 z"
        sodipodi:nodetypes="sssss" />
     <rect
        transform="matrix(-0.99999995,3.2426764e-4,-5.0649542e-4,-0.99999987,0,0)"
        style="opacity:0.309904;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.325502;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="glassrod"
+       id="glassrod" display = "none" onclick= "f10()"
        width="1.1519967"
        height="25.75802"
        x="-71.07571"
@@ -1319,7 +1309,7 @@
        sodipodi:nodetypes="sssscsccss"
        d="m 120.26225,81.151021 -0.84055,-0.01672 c -0.007,-1.29e-4 -0.13972,-3.010241 -0.14112,-3.184922 l -0.11847,-14.895791 c -0.002,-0.175061 1.39028,-1.457373 1.39028,-1.457373 l 4.67207,-0.172096 c 0,0 -4.90775,0.208749 -5.14239,0.992474 l 0.31809,18.727548 c 0,0 -0.11004,0.161697 -0.12292,-0.05779 z"
        style="opacity:0.153355;fill:#008bff;fill-opacity:1;stroke:#000000;stroke-width:0.199444;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="liq3" >
+       id="liq3" display = "none">
        <animateTransform 
        attributeName="transform"
        attributeType="XML"
@@ -1347,7 +1337,7 @@
        <path
        d="m 175.13321,121.182832 -0.006,-15.506019 0.42518,-4.075392 -0.42685,-0.02433 -2e-5,-0.0534 -2.78774,0.0011 0.008,19.659179 z"
        style="opacity:1;fill:#b8ecec;fill-opacity:1;stroke:#000000;stroke-width:0.34299;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="measuringcylindertilt" >
+       id="measuringcylindertilt" display = "none" >
        <animateTransform attributeName="transform"
                      type="rotate"
                      from="0 175.13321 115.182832" to="90 175.13321 111.182832"
@@ -1360,6 +1350,6 @@
 
         
         
-
+   <script src= "thejs.js"></script>
     </body>
 </html>
