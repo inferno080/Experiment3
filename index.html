@@ -267,10 +267,20 @@
        attributeType="XML"
        type="translate"
        dur="1.7s"
-       values="0,0;125,52"
+       values="0,0;105,52"
        restart="whenNotActive"
        fill="freeze"
        begin="phenolcontainer.click"
+       />
+       <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1.7s"
+       values="105,52;0,0"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="H2SO4container.click"
        />
        </path>
     <rect
@@ -286,7 +296,7 @@
        attributeType="XML"
        type="translate"
        dur="1.7s"
-       values="79.371254,115.033539;204.5,167"
+       values="59.371254,115.033539;184.5,167"
        restart="whenNotActive"
        fill="freeze"
        begin="phenolcontainer.click"
@@ -296,10 +306,20 @@
        attributeType="XML"
        type="translate"
        dur="1.7s"
-       values="204.5,167;214.5,167"
+       values="184.5,167;176.5,167"
        restart="whenNotActive"
        fill="freeze"
        begin="phenolcontainer.click+1.8s"
+       />
+       <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1.7s"
+       values="176.5,167;79.371254,115.033539"  
+       restart="whenNotActive"
+       fill="freeze"
+       begin="H2SO4container.click"
        />
        </rect>
     <rect
@@ -421,10 +441,20 @@
        attributeType="XML"
        type="translate"
        dur="1.7s"
-       values="79.471254,148.433539;205.1,200.4"
+       values="79.471254,148.433539;185.1,200.4"
        restart="whenNotActive"
        fill="freeze"
        begin="phenolcontainer.click"
+       />
+       <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1.7s"
+       values="185.1,200.4; 79.471254,148.433539"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="H2SO4container.click"
        />
        </rect>
     <path
@@ -636,11 +666,22 @@
        attributeType="XML"
        type="translate"
        dur="1.7s"
-       values="79.571254,149.533539;205.1,200.4"
+       values="79.571254,149.533539;185.1,200.4"
        restart="whenNotActive"
        fill="freeze"
        begin="phenolcontainer.click"
        />
+       <animateTransform 
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="1.7s"
+      values="185.1,200.4;79.571254,149.533539"
+      restart="whenNotActive"
+      fill="freeze"
+      begin="H2SO4container.click"
+      />
+       
        </rect>
     <text
        xml:space="preserve"
@@ -693,10 +734,20 @@
       attributeType="XML"
       type="translate"
       dur="1.7s"
-      values="-1.7,4.65;124,55"
+      values="-1.7,4.65;104,55"
       restart="whenNotActive"
       fill="freeze"
       begin="phenolcontainer.click"
+      />
+      <animateTransform 
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="1.7s"
+      values="104,55;-1.7,4.65"
+      restart="whenNotActive"
+      fill="freeze"
+      begin="H2SO4container.click"
       /></text>
     <text
        transform="matrix(0.91060034,0.00299565,-0.00234492,1.0981689,0,0)"
@@ -903,28 +954,9 @@
        values=" 45,52;0,0"
        restart="whenNotActive"
        fill="freeze"
-       begin="formaldehydeconatiner.click"
+       begin="formaldehydeconatiner.click; H2SO4container.click;phenolcontainer.click"
        />
-       <animateTransform 
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1.7s"
-       values=" 45,52;0,0"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="H2SO4container.click"
-       />
-       <animateTransform 
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1.7s"
-       values=" 45,52;0,0"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="phenolcontainer.click"
-       />
+      
        
        </path>
 
@@ -1285,7 +1317,18 @@
        id="slime" display = "none"
        style="opacity:0.309904;fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:0.323432;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 95.673199,80.724136 c 0.18884,-0.02318 1.66711,-0.379126 3.7238,-0.379959 2.056671,-8.34e-4 4.050081,0.357508 4.239281,0.376731 5.29236,0.537615 -2.1823,0.379335 -4.238971,0.380168 -2.05669,8.34e-4 -9.026366,0.273229 -3.72411,-0.37694 z"
-       sodipodi:nodetypes="sssss" />
+       sodipodi:nodetypes="sssss" >
+       <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1.7s"
+       values="95.673199,80.724136;85,52"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="beaker.click"
+       />
+       </path>
     <rect
        transform="matrix(-0.99999995,3.2426764e-4,-5.0649542e-4,-0.99999987,0,0)"
        style="opacity:0.309904;fill:#00ffff;fill-opacity:1;stroke:#000000;stroke-width:0.325502;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
@@ -1350,6 +1393,6 @@
 
         
         
-   <script src= "thejs.js"></script>
+  <!--  <script src= "thejs.js"></script> -->
     </body>
 </html>
