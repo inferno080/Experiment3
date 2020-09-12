@@ -55,12 +55,12 @@ function f3 ()
             document.getElementById("liq2").style.display = "none"  ;
             document.getElementById("measuringcylindertilt").style.display = "block"  ;
             document.getElementById("measuringcylinder").style.display = "none"  ;
-            document.getElementById("liq3").style.display = "block"  ;
+            document.getElementById("liq3tilt").style.display = "block"  ;
         }, 3500)
         setTimeout(function(){
             document.getElementById("measuringcylinder").style.display = "block"  ;
             document.getElementById("measuringcylindertilt").style.display = "none"  ;
-            document.getElementById("liq3").style.display = "none"  ;
+            document.getElementById("liq3tilt").style.display = "none"  ;
             if(p==3)
             {
                 document.getElementById("glassrod").style.display = "block"
@@ -94,6 +94,7 @@ function f5()
         c = c+1;
         setTimeout(function(){
             document.getElementById("fun6").style.display = "none"  
+            document.getElementById("whitepowder").style.display = "block"  
             document.getElementById("fancyspoon1").style.display = "block"  
         }, (1500))
     }
