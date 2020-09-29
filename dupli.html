@@ -951,11 +951,40 @@
        attributeType="XML"
        type="translate"
        dur="1.7s"
-       values=" 45,52;0,0"
+       values=" 55,40;0,0"
        restart="whenNotActive"
        fill="freeze"
        begin="formaldehydeconatiner.click; H2SO4container.click;phenolcontainer.click"
        />
+      
+       
+       </path>
+<!--this is the extra object i have added-->
+       <path
+       d="m 165.13321,133.182832 -0.006,-15.506019 0.42518,-4.075392 -0.42685,-0.02433 -2e-5,-0.0534 -2.78774,0.0011 0.008,19.659179 z"
+       style="opacity:1;fill:#b8ecec;fill-opacity:1;stroke:#000000;stroke-width:0.34299;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="measuringcylinderextra" onclick = "f3()" >
+       
+       <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1.7s"
+       values="0,0;10,-12" 
+       restart="whenNotActive"
+       fill="freeze"
+       begin="measuringcylinder.click+2s"
+       />
+       <!-- <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1.7s"
+       values=" 10,-12;-45,-52"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="formaldehydeconatiner.click; H2SO4container.click;phenolcontainer.click"
+       /> -->
       
        
        </path>
@@ -1209,7 +1238,8 @@
        attributeName="transform"
        attributeType="XML"
        type="translate"
-       dur="1.5s"
+       dur="0.75s"
+       
        values="0,0;-67,0"
        restart="whenNotActive"
        fill="freeze"
@@ -1285,7 +1315,7 @@
        attributeType="XML"
        type="translate"
        dur="1.5s"
-       values="-3,-15;-70,-15"
+       values="-3,-15;-70,-15;-65,10"
        restart="whenNotActive"
        fill="freeze"
        begin="fancyspoon3.click"
@@ -1325,13 +1355,26 @@
          sodipodi:nodetypes="ssssssscss"
          d="m 103.9915,79.177573 -9.996438,-9.49e-4 c -0.0895,-4e-6 -0.24811,-0.323398 -0.24773,-0.342175 l 0.0318,-1.589041 c 2.6e-4,-0.01883 0.0721,-0.03368 0.16164,-0.03402 l 11.513028,-0.03853 c 0.0896,-2.36e-4 0.18196,0.03538 0.18192,0.05411 l -0.005,1.949533 c 0,0 -1.38236,0.01758 -1.43696,-0.0064 z"
          style="opacity:0.153355;fill:#0018ff;fill-opacity:1;stroke:none;stroke-width:0.225531;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-         id="liq_late" />
+         id="liq_late">
+       <!--animation of extra liquid has been added - 29th sept-->
+         <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1.7s"
+       values="0,0;85,51.9"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="beaker.click"
+       />
+
+         </path>
     <path
        id="slime"
        sodipodi:nodetypes="sssss"
        d="m 95.673199,79.900292 c 0.18884,-0.06715 1.66711,-1.098378 3.7238,-1.100791 2.056671,-0.0024 4.050081,1.035748 4.239281,1.091439 5.29236,1.557542 -2.1823,1.098984 -4.238971,1.101397 -2.05669,0.0024 -9.026366,0.791581 -3.72411,-1.092045 z"
        style="opacity:1;fill:#ff00ff;fill-opacity:1;stroke:#000000;stroke-width:0.550512;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       id="path1274" />
+       id="path1274">
        <animateTransform 
        attributeName="transform"
        attributeType="XML"
