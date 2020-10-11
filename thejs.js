@@ -36,6 +36,9 @@ function f3 ()
         if (p==0)
         {
             document.getElementById("fun3").style.display = "none"
+            setTimeout(function(){
+                document.getElementById("liq_late").style.display = "block"  ;
+            }, (3000))
             p ++;
         }
         else if (p==1)
@@ -94,7 +97,6 @@ function f5()
         c = c+1;
         setTimeout(function(){
             document.getElementById("fun6").style.display = "none"  
-            document.getElementById("whitepowder").style.display = "block"  
             document.getElementById("fancyspoon1").style.display = "block"  
         }, (1500))
     }
