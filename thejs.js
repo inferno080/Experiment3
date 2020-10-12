@@ -38,7 +38,7 @@ function f3 ()
             document.getElementById("fun3").style.display = "none"
             setTimeout(function(){
                 document.getElementById("liq_late").style.display = "block"  ;
-            }, (3000))
+            }, (5000))
             p ++;
         }
         else if (p==1)
@@ -48,7 +48,6 @@ function f3 ()
         }
         else if (p==2)
         {
-            document.getElementById("fun10").style.display = "none"
             p ++;
         }
         setTimeout(function(){
@@ -67,6 +66,7 @@ function f3 ()
             if(p==3)
             {
                 document.getElementById("glassrod").style.display = "block"
+                document.getElementById("fun10").style.display = "none"
             }
         }, (6000))
     }
@@ -136,7 +136,7 @@ function f7()
             document.getElementById("whitepowder").style.display = "none" 
             document.getElementById("Pisplay2").style.display = "block"  
             document.getElementById("Pisplay1").style.display = "none"  
-        }, (3000))
+        }, (2000))
     }
     else
     {
