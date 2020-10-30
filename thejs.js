@@ -11,7 +11,8 @@ function f1()
     }
     else
     {
-        alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches");
+        c--;
     }
 }
 function f2()
@@ -21,11 +22,13 @@ function f2()
         c = c+1;
         setTimeout(function(){
             document.getElementById("fun2").style.display = "none"  
+            
         }, (1500))
     }
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 function f3 ()
@@ -73,6 +76,7 @@ function f3 ()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -88,6 +92,7 @@ function f4()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 function f5()
@@ -103,6 +108,7 @@ function f5()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 function f6()
@@ -120,6 +126,7 @@ function f6()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -141,6 +148,7 @@ function f7()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -162,6 +170,7 @@ function f8()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -177,6 +186,7 @@ function f9()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -188,5 +198,10 @@ function f10()
             document.getElementById("fun12").style.display = "none" 
             document.getElementById("slime").style.display = "block" 
         }, (1500))
+    }
+    else
+    {
+        alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
