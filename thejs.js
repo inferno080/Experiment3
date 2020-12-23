@@ -1,5 +1,9 @@
 c = 0;
 p =0;
+function f0(){
+    document.getElementById("rect854").style.display="block";
+    document.getElementById("rect854").style.cursor="pointer";
+}
 function f1()
 {   
     if(c==0)
