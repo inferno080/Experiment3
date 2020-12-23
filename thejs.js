@@ -15,7 +15,8 @@ function f1()
     }
     else
     {
-        alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches");
+        c--;
     }
 }
 function f2()
@@ -25,11 +26,13 @@ function f2()
         c = c+1;
         setTimeout(function(){
             document.getElementById("fun2").style.display = "none"  
+            
         }, (1500))
     }
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 function f3 ()
@@ -40,6 +43,9 @@ function f3 ()
         if (p==0)
         {
             document.getElementById("fun3").style.display = "none"
+            setTimeout(function(){
+                document.getElementById("liq_late").style.display = "block"  ;
+            }, (5000))
             p ++;
         }
         else if (p==1)
@@ -49,7 +55,6 @@ function f3 ()
         }
         else if (p==2)
         {
-            document.getElementById("fun10").style.display = "none"
             p ++;
         }
         setTimeout(function(){
@@ -68,12 +73,14 @@ function f3 ()
             if(p==3)
             {
                 document.getElementById("glassrod").style.display = "block"
+                document.getElementById("fun10").style.display = "none"
             }
         }, (6000))
     }
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -89,6 +96,7 @@ function f4()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 function f5()
@@ -98,13 +106,13 @@ function f5()
         c = c+1;
         setTimeout(function(){
             document.getElementById("fun6").style.display = "none"  
-            document.getElementById("whitepowder").style.display = "block"  
             document.getElementById("fancyspoon1").style.display = "block"  
         }, (1500))
     }
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 function f6()
@@ -122,6 +130,7 @@ function f6()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -138,11 +147,12 @@ function f7()
             document.getElementById("whitepowder").style.display = "none" 
             document.getElementById("Pisplay2").style.display = "block"  
             document.getElementById("Pisplay1").style.display = "none"  
-        }, (3000))
+        }, (2000))
     }
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -164,6 +174,7 @@ function f8()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -179,6 +190,7 @@ function f9()
     else
     {
         alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
 
@@ -190,5 +202,10 @@ function f10()
             document.getElementById("fun12").style.display = "none" 
             document.getElementById("slime").style.display = "block" 
         }, (1500))
+    }
+    else
+    {
+        alert("You Clicked The Wrong Apparatus, Refresh to avoid glitches")
+        c--;
     }
 }
