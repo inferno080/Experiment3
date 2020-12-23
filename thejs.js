@@ -1,11 +1,13 @@
 c = 0;
 p =0;
 function f0(){
-    document.getElementById("rect854").style.display="block";
-    document.getElementById("rect854").style.cursor="pointer";
+    document.getElementById("beaker").style.display="block";
+    document.getElementById("beaker").style.cursor="pointer";
 }
 function f1()
-{   
+{ document.getElementById("beaker").style.cursor="default";
+document.getElementById("aceticacidcontainer").style.display="block";
+document.getElementById("aceticacidcontainer").style.cursor="pointer";  
     if(c==0)
     {   
         c = c+1;
@@ -20,7 +22,9 @@ function f1()
     }
 }
 function f2()
-{   
+{     document.getElementById("aceticacidcontainer").style.cursor="default";
+document.getElementById("measuringcylinder").style.display="block";
+document.getElementById("measuringcylinder").style.cursor="pointer"; 
     if(c==1)
     {   
         c = c+1;
@@ -36,7 +40,9 @@ function f2()
     }
 }
 function f3 ()
-{   
+{    
+/* document.getElementById("formaldehydecontainer").style.display="block";
+document.getElementById("formaldehydecontainer").style.cursor="pointer";   */
     if(c==2 | c==4 | c==10)
     {   
         c = c+1;
@@ -85,7 +91,9 @@ function f3 ()
 }
 
 function f4()
-{   
+{    /* document.getElementById("formaldehydecontainer").style.cursor="default";
+document.getElementById("measuringcylinder").style.display="block";
+document.getElementById("measuringcylinder").style.cursor="pointer";  */
     if(c==3)
     {   
         c = c+1;
