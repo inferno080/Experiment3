@@ -8,7 +8,7 @@ function f1()
 {  
     if(c==0)
     {   document.getElementById("beaker").style.cursor="default";
-    document.getElementById("aceticacidcontainer").style.display="block";
+    /* document.getElementById("aceticacidcontainer").style.display="block"; */
     document.getElementById("aceticacidcontainer").style.cursor="pointer";   
         c = c+1;
         setTimeout(function(){
@@ -45,8 +45,7 @@ function f3 ()
     
     
     document.getElementById("measuringcylinder").style.cursor="default"; 
- document.getElementById("formaldehydeconatiner").style.display="block";
-document.getElementById("formaldehydeconatiner").style.cursor="pointer";   
+   
 
 
 ////////////////////////////////////////////////////////////////////////////c=4
@@ -54,7 +53,18 @@ document.getElementById("formaldehydeconatiner").style.cursor="pointer";
 document.getElementById("phenolcontainer").style.display="block";
 document.getElementById("phenolcontainer").style.cursor="pointer";    */
     if(c==2 | c==4 | c==10)
-    {   
+    {   if(c==2){
+        document.getElementById("formaldehydeconatiner").style.display="block";
+        document.getElementById("formaldehydeconatiner").style.cursor="pointer"; 
+    }
+    else if(c==4){
+        document.getElementById("phenolcontainer").style.display="block";
+        document.getElementById("phenolcontainer").style.cursor="pointer";
+    }
+   /*  else if(c==10){
+        document.getElementById("H2SO4container").style.display="block";
+document.getElementById("H2SO4container").style.cursor="pointer";
+    } */
         c = c+1;
         if (p==0)
         {
@@ -101,9 +111,10 @@ document.getElementById("phenolcontainer").style.cursor="pointer";    */
 }
 
 function f4()
-{   document.getElementById("formaldehydeconatiner").style.pointer="default"
+{   document.getElementById("formaldehydeconatiner").style.pointer="default";
     document.getElementById("measuringcylinder").style.display="block";
 document.getElementById("measuringcylinder").style.cursor="pointer";  
+
     
    
     if(c==3)
@@ -121,7 +132,7 @@ document.getElementById("measuringcylinder").style.cursor="pointer";
 }
 function f5()
 {   
-
+    document.getElementById("phenolcontainer").style.cursor="default"; 
 
    
     if(c==5)
@@ -130,6 +141,7 @@ function f5()
         setTimeout(function(){
             document.getElementById("fun6").style.display = "none"  
             document.getElementById("fancyspoon1").style.display = "block"  
+            document.getElementById("fancyspoon1").style.cursor="pointer";
         }, (1500))
     }
     else
@@ -144,7 +156,9 @@ function f6()
     /*  document.getElementById("measuringcylinder").style.cursor="default";
 document.getElementById("phenolcontainer").style.display="block";
 document.getElementById("phenolcontainer").style.cursor="pointer";   */
-    
+
+document.getElementById("fancyspoon1").style.cursor="default";
+
    
     if(c==6)
     {   
@@ -152,6 +166,7 @@ document.getElementById("phenolcontainer").style.cursor="pointer";   */
         setTimeout(function(){
             document.getElementById("fun7").style.display = "none"  
             document.getElementById("fancyspoon2").style.display = "block"  
+            document.getElementById("fancyspoon2").style.cursor="pointer";
             document.getElementById("fancyspoon1").style.display = "none"  
             document.getElementById("whitepowder").style.display = "block"  
         }, (3000))
@@ -164,7 +179,7 @@ document.getElementById("phenolcontainer").style.cursor="pointer";   */
 }
 
 function f7()
-{    
+{    document.getElementById("fancyspoon2").style.cursor="default";
 
     if(c==7)
     {   
@@ -172,6 +187,7 @@ function f7()
         setTimeout(function(){
             document.getElementById("fun8").style.display = "none"  
             document.getElementById("fancyspoon3").style.display = "block"  
+            document.getElementById("fancyspoon3").style.cursor="pointer";
             document.getElementById("fancyspoon2").style.display = "none"  
             document.getElementById("whitepowderinmachine").style.display = "block"  
             document.getElementById("whitepowder").style.display = "none" 
@@ -187,7 +203,8 @@ function f7()
 }
 
 function f8()
-{   
+{   document.getElementById("fancyspoon3").style.cursor="default";
+
     if(c==8)
     {   
         c = c+1;
@@ -210,6 +227,8 @@ function f8()
 
 function f9()
 {   
+  
+document.getElementById("glassrod").style.cursor="pointer";
     if(c==9)
     {   
         c = c+1;
@@ -225,7 +244,8 @@ function f9()
 }
 
 function f10()
-{
+{  
+   
     if(c==11)
     {
         setTimeout(function(){
